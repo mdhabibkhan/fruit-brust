@@ -4,8 +4,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fruit brust</title>
+    <link rel="stylesheet" href="tailwind.config.js">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+
+<link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://kit.fontawesome.com/c9af27a268.js" crossorigin="anonymous"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                'btn-primary': '#E76F51',
+                'btn-primary-bg': 'rgba(231, 111, 81, 0.10)',
+              }
+            }
+          }
+        }
+      </script>
+      <style>
+        .font-lato{
+            font-family: 'Lato', sans-serif;
+        }
+      </style>
 </head>
 <body>
+    <header>
+      <!-- navbar start here -->
+      <div class="navbar bg-[#F85559] rounded-full w-10/12 m-auto mt-12 font-lato">
+        <div class="navbar-start">
+            <ul class="flex text-white gap-7 ml-14 text-lg">
+              <li><a>Home</a></li>
+              <li><a>About Us</a></li>
+              <li><a>Shop</a></li>
+              <li><a>All Fruits</a></li>
+            </ul>
+        </div>
+        <div class="navbar-center gap-3">
+          <img src="./images/logo.png" alt="">
+          <h2 class="text-4xl font-bold text-white">Fruit Burst</h2>
+        </div>
+        <div class="navbar-end">
+             <div class="flex ">
+                <input type="search" placeholder="Search here" class="py-3 px-8 rounded-full relative mr-9">
+              <span class="absolute ml-48 mt-4"><i class="fa-solid fa-magnifying-glass"></i></span>
+                
+             </div>
+            
+            </div>
+          </button>
+        </div>
+      </div>
+
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
     
 </body>
 </html>
